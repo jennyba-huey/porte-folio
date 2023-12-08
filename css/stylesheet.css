@@ -9,10 +9,20 @@ html {
     background-color: blueviolet;
 }
 
+/*body{
+    margin: auto;
+    background-image: url("../images/image2.jpg");
+    background-size: cover;
+    justify-content: center;
+    /* background-position: center; */
+    /* width: 80%;
+    padding: 20px;*/
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+}
 
 
-
-#photo1 {
+.slider-container {
     margin-left: 44%;
     width: 15%;
     margin-top: 2%;
@@ -21,22 +31,16 @@ html {
 
 }
 
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
 #logo1,
 #logo2 {
     width: 15%;
 }
 
-/* #logo1 {
-    margin-left: 44%;
-    width: 15%;
-    margin-top: 2%;
-}
-
-#logo2 {
-    margin-left: 44%;
-    width: 15%;
-    margin-top: 2%;
-} */
 
 #menu {
     display: flex;
@@ -101,19 +105,29 @@ main {
 }
 
 
-/* Slideshow container */
 #bannière-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
-  
-  /* Hide the images by default */
-  #bannière {
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+    overflow: hidden;
+}
+
+#bannière {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.prevBtn, .nextBtn {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -126,10 +140,67 @@ main {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour les boutons */
+}
+
+.nextBtn{
+    right: 10px;
+}
+
+.prevBtn{
+    left: 10px;
+}
+
+/* Animation pour les boutons au survol */
+.prevBtn:hover, .nextBtn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(116, 3, 3);
+}
+
+
+.box{
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
+    background: green;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius : 20px
+    /*margin-bottom: 20px; /* Ajout de l'espace entre chaque boîte */
+}
+
+.box:not(:last-child) {
+    margin-bottom: 20px; /* Ajout de l'espace entre chaque boîte sauf la dernière */
+}
+
+/*main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 10px;
+    margin:auto;
+}*/
+
+#Boites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: auto;
+    background-image: url("../images/image2.jpg");
+    background-size: cover;
+    justify-content: center;
+    /* background-position: center; */
+    /* width: 80%;
+    padding: 20px;*/
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding: 20px;
+}
