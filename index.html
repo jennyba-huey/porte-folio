@@ -1,129 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-    <title>Portefolio de Djeneba BA</title>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+    <title>Porte folio de Djeneba BA</title>
 </head>
 
 <body>
-    <section id="menu">
-        <section id="logo">
-            <img src="./images/EPF_logo.png" alt="logo1" id="logo1">
-            <span>Djeneba BA</span>
-            <img src="./images/logo-linkedin.png" alt="logo2" id="logo2">
-        </section>
-        <section id="home">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+    <header>
+        <section class="banniere" id="idbanniere">
+            <h1>Djeneba BA</h1>
+            <div class="menu">
+                <a href="#menu">Accueil</a>
+                <a href="#actualités">Actualités</a>
+                <a href="#projet">Projets</a>
+                <a href="#contact">About Me</a>
+            </div>
+
+            <a href="#" class="barre" onclick="barremenu()">
+                <img class="icon" src="../images/menu.png" alt="MenuBars">
             </a>
         </section>
-    </section>
 
-    <main>
-        <section id="bannière">
-            <button class="prevBtn" onclick="prevSlide()">&#10094;</button>
-            <div class="slider-container">
-                <div class="slider">
-                    <div class="slide"><img src="./images/image1.jpg" alt="Slide 1"></div>
-                    <div class="slide"><img src="./images/image2.jpg" alt="Slide 2"></div>
-                    <div class="slide"><img src="./images/image3.jpg" alt="Slide 3"></div>
-                    <!-- Ajoutez plus de diapositives au besoin -->
-                </div>
+        <section class="banniere2" id="idbanniere2">
+            <div class="menu2">
+                <a href="#menu2">Accueil</a>
+                <a href="#actualités2">Actualités</a>
+                <a href="#projet2">Projets</a>
+                <a href="#about2">About Me</a>
             </div>
-            <button class="nextBtn" onclick="nextSlide()">&#10095;</button>
         </section>
-    </main>
 
-    <section class="edito">
-        <p>Caroussel ou Edito</p>
-        <br>
-    </section>
+
+    </header>
+    <figure>
+        <a target="_blank" href="../images/djedje.jpg"><img src="../images/djedje.jpg" alt="djeneba"
+                class="djeneba"></a>
+    </figure>
+
+
+    <div class="Edito">
+        <h4>Bonjour, Je suis Djeneba BA et j'aime les sciences</h4>
+        
+    </div>
 
     <br>
 
-    
-        <section id="Boites">
-        <div class="box">
-            <h2> Projet 1</h2>
-            <p>Date début : 20 mai 2023 -- Date fin : 20 juin 2023</p>
-            <p>Stage international en Belgique : Vendeuse en Belgique au Twinshop</p>
-            <p>Date début : 1er juillet 2022 -- Date fin : 30 juillet 2022</p>
-            <p>Stage Commercial et logistique : A Mijane</p>
-            <p>encore</p>
-        </div>
+    <main>
+        <div class="Boite">
 
-        <div class="box">
-            <h2> Projet 2</h2>
-            <p>Baccalauréat scientifique : SVT, Physique-Chimie et Maths Complémentaire</p>
-            <p>1er année de prépa intégrée à l'ESME</p>
-            <p>1er année du Bachelor d'Ingénierie Numérique et Stratégie d'Entreprise (actuellement)</p>
-        </div>
+            <div class="box">
+                <h2> Projet 1</h2>
+                <p>Date début : 20 mai 2023 -- Date fin : 20 juin 2023</p>
+                <p>Stage international en Belgique : Vendeuse en Belgique au Twinshop</p>
+                <p>Date début : 1er juillet 2022 -- Date fin : 30 juillet 2022</p>
+                <p>Stage Commercial et logistique : A Mijane</p>
+                <p>encore</p>
+            </div>
 
-        <div class="box">
-            <h2> Projet 3</h2>
-            <p>Date début : 20 mai 2023 -- Date fin : 20 juin 2023</p>
-            <p>Stage international en Belgique : Vendeuse en Belgique au Twinshop</p>
-            <p>Date début : 1er juillet 2022 -- Date fin : 30 juillet 2022</p>
-            <p>Stage Commercial et logistique : A Mijane</p>
-            <p>encore</p>
-        </div>
+            <div class="box">
+                <h2> Projet 2</h2>
+                <p>Baccalauréat scientifique : SVT, Physique-Chimie et Maths Complémentaire</p>
+                <p>1er année de prépa intégrée à l'ESME</p>
+                <p>1er année du Bachelor d'Ingénierie Numérique et Stratégie d'Entreprise (actuellement)</p>
+            </div>
 
-        <div class="box">
-            <h2> Projet 4</h2>
-            <p>Baccalauréat scientifique : SVT, Physique-Chimie et Maths Complémentaire</p>
-            <p>1er année de prépa intégrée à l'ESME</p>
-            <p>1er année du Bachelor d'Ingénierie Numérique et Stratégie d'Entreprise (actuellement)</p>
+            <div class="box">
+                <h2> Projet 3</h2>
+                <p>Date début : 20 mai 2023 -- Date fin : 20 juin 2023</p>
+                <p>Stage international en Belgique : Vendeuse en Belgique au Twinshop</p>
+                <p>Date début : 1er juillet 2022 -- Date fin : 30 juillet 2022</p>
+                <p>Stage Commercial et logistique : A Mijane</p>
+                <p>encore</p>
+            </div>
         </div>
+        <div class="Boite">
 
-        <div class="box">
-            <h2> Projet 5</h2>
-            <p>Date début : 20 mai 2023 -- Date fin : 20 juin 2023</p>
-            <p>Stage international en Belgique : Vendeuse en Belgique au Twinshop</p>
-            <p>Date début : 1er juillet 2022 -- Date fin : 30 juillet 2022</p>
-            <p>Stage Commercial et logistique : A Mijane</p>
-            <p>encore</p>
-        </div>
 
-        <div class="box">
-            <h2> Projet 6</h2>
-            <p>Baccalauréat scientifique : SVT, Physique-Chimie et Maths Complémentaire</p>
-            <p>1er année de prépa intégrée à l'ESME</p>
-            <p>1er année du Bachelor d'Ingénierie Numérique et Stratégie d'Entreprise (actuellement)</p>
+            <div class="box">
+                <h2> Projet 4</h2>
+                <p>Baccalauréat scientifique : SVT, Physique-Chimie et Maths Complémentaire</p>
+                <p>1er année de prépa intégrée à l'ESME</p>
+                <p>1er année du Bachelor d'Ingénierie Numérique et Stratégie d'Entreprise (actuellement)</p>
+            </div>
+
+            <div class="box">
+                <h2> Projet 5</h2>
+                <p>Date début : 20 mai 2023 -- Date fin : 20 juin 2023</p>
+                <p>Stage international en Belgique : Vendeuse en Belgique au Twinshop</p>
+                <p>Date début : 1er juillet 2022 -- Date fin : 30 juillet 2022</p>
+                <p>Stage Commercial et logistique : A Mijane</p>
+                <p>encore</p>
+            </div>
+
+            <div class="box">
+                <h2> Projet 6</h2>
+                <p>Baccalauréat scientifique : SVT, Physique-Chimie et Maths Complémentaire</p>
+                <p>1er année de prépa intégrée à l'ESME</p>
+                <p>1er année du Bachelor d'Ingénierie Numérique et Stratégie d'Entreprise (actuellement)</p>
+            </div>
         </div>
-    </section>
+    </main>
 
     <article class="Formulaire">
         <form>
-            <label>Nom :</label>
-            <input type="text" class="nom" required><br><br>
+            <h4>Message</h4>
 
-            <label>Prénom :</label>
-            <input type="text" class="prenom" required><br><br>
+            <label for="idfnom">Nom :</label>
+            <input type="text" class="name" id="idfnom" required><br><br>
 
-            <label>Âge :</label>
-            <input type="number" class="age" required><br><br>
+            <label for="idfprenom">Prénom :</label>
+            <input type="text" class="prenom" id="idfprenom" required><br><br>
 
-            <label>Description :</label>
-            <input type="text" class="description" required><br>
+            <label for="idfage">Âge :</label>
+            <input type="number" class="age" id="idfage" required><br><br>
+
+            <label for="idfadresse">Votre adresse mail:</label>
+            <input type="text" id="idfadresse" class="mail" required><br><br>
+
+            <label for="idfdesccription">Description :</label>
+            <input type="text" class="description" id="idfdescription" required><br><br>
 
             <button type="submit">Envoyer</button>
 
         </form>
-
     </article>
 
-    <br><br>
     <footer>
-
+        <a href="https://github.com/jennyba-huey" alt="logogithub" target="_blank"><img src="../images/github.png"></a>
     </footer>
-    <script src="./js/javascript.js"></script>
+
+    <script src="../porte folio/js/javascript.js"></script>
 </body>
 
 </html>
