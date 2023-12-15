@@ -17,11 +17,7 @@ h1 {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Effet de brillance en blanc */
 
 }
-.nom {
-    background-color:rgb(243, 251, 6);
-    padding: 10px;
 
-}
 .menu a {
     float: left;
     padding: 10px 16px;
