@@ -6,4 +6,3 @@ function barremenu() {
         x.style.display = "block";
     }
 }
-
