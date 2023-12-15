@@ -1,0 +1,1 @@
+Portefeuille conçu dans le cadre du cours de Programmation HTML du deuxième semestre du programme de licence. Il a été élaboré en conformité avec un ensemble de spécifications définies. Période de réalisation : du 13 septembre 2023 au 15 décembre 2023.
